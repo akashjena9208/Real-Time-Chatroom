@@ -24,58 +24,8 @@ A real-time chatroom web application built using Java 17, Spring Boot, WebSocket
 - Java 17 or higher
 - Maven 3.6+
 
-### Steps to Run Locally
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/vootlasaicharan/chatroom.git
-   cd ChatRoom
-   ```
 
-2. **Build the Project**:
-   ```sh
-   mvn clean install
-   ```
-
-3. **Run the Application**:
-   ```sh
-   java -jar target/chatroom-0.0.1-SNAPSHOT.jar
-   ```
-   or
-   ```sh
-   mvn spring-boot:run
-   ```
-
-4. **Access the Application**:
-   Open your browser and navigate to `http://<Public IP Address>:8080`.
-
-5. **Deploy the Application on Artifactory**
-   ```sh
-   mvn clean deploy   
-   ```
-   or
-   ```sh
-   curl -v -u admin:password --upload-file target/chatroom-0.0.1-SNAPSHOT.jar "http://<IP_ADDRESS>:8081/repository/maven-snapshots/com/goldencat/chatroom/0.0.1-SNAPSHOT/chatroom-0.0.1-SNAPSHOT.jar"
-   ```
-
-## Usage
-
-- **Login**: Enter your desired username to join the chatroom.
-- **Chat**: Send messages to other users in real-time. You will be notified when new users join or leave the chat.
-
-## License
-
-This project is licensed under the **Chatroom License**. You may use, modify, and distribute the software for personal, non-commercial use. Commercial use requires prior approval from the creator.
-
-For more details, see the [LICENSE](./License.md) file.
-
-## Contact
-
-For permissions related to commercial use or any questions, please contact: Code With Goldencat (codingwithgoldencat@gmail.com)
-
-## Contributions
-
-Contributions are welcome! Feel free to open an issue or submit a pull request to improve the project.
 
 ## Screenshots
 
